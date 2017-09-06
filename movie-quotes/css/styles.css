@@ -1,0 +1,15 @@
+
+body {
+color: black;
+font-family: garamond;
+}
+dt {
+color: blue; 
+text-decoration: 
+underline; 
+font-weight: bold;
+}
+dd { 
+color:orange;
+text-transform: uppercase;
+}
