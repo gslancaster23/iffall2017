@@ -1,0 +1,68 @@
+body {
+	font-family: 'Crimson Text', serif;
+	margin: 1em 1em 1em 1em;
+	font-size: 30px; 
+	color: rgba(161, 187, 161,1); 
+
+}
+
+h1 {
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+
+}
+
+h2 {
+	font-size:20px;
+	font-weight: 400; /*normal*/ 
+	color: black; 
+}
+h3 {
+	font-size:12px;
+	font-weight: 400;
+	color: gray;
+}
+p {
+ 	font-size: 24px; 
+ 	font-weight: 400; /*normal*/ 
+}
+
+p.bold { 
+	font-weight: 900;
+
+}
+p.italic {
+	font-style: italic;
+}
+
+p.letterspacingneg{
+	letter-spacing: -0.3em;
+}
+
+p.letterspacingpos {
+	letter-spacing: +0.3em;
+}
+
+p.underline{
+	text-decoration: underline;
+}
+
+p.linethrough {
+	text-decoration: line-through;
+}
+
+p.uppercase {
+	text-transform: uppercase;
+}
+
+p.lowercase {
+	text-transform: lowercase;
+}
+
+p.sentencecase {
+	text-transform: capitalize;
+}
+
+
+
+
