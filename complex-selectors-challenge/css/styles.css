@@ -1,0 +1,77 @@
+header {
+	margin-bottom: 3rem;
+}
+
+p {
+	line-height: 1.6;
+}
+
+a.see-all {
+	font-size: .8em;
+	font-style: uppercase;
+}
+
+.shows h1  {
+	font-size: 2.5em;
+	
+}
+
+h2 {
+	font-size: 1rem;
+	font-style: uppercase;
+	
+}
+
+h1 {
+	font-weight: lighter;
+
+}
+
+/*7.*/ 
+img {
+	width:100%;
+}
+
+section.cast img {
+	width:25%;
+}
+
+h1 {
+	border-top: 1px solid red;
+	
+}
+
+ nav .selected a{
+	font-weight: bold;
+	color: black;
+
+}
+/*space means descendant*/
+
+/*11.*/
+section.cast div {
+    font-size: 0.8rem;
+}
+/*12.*/
+section.cast a div {
+    font-weight: bold;
+}
+
+/*13.*/
+section.cast a div:last-child {
+    font-style: italic;
+    font-weight: normal;
+}
+
+#game-of-thrones .seasons li:last-child:after {
+	content: "*";
+}
+
+#game-of-thrones .seasons:after {
+    content: '* In production';
+    font-size: 0.7rem;
+    color: #999;
+}
+
+ 
+
