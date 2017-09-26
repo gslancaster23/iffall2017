@@ -1,0 +1,64 @@
+body {
+    background-color:rgb(161, 133, 114) ;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.attachment-fixed {
+    background-attachment: fixed;
+}
+
+.attachment-fixed, .attachment-scroll {
+    background-image: url(http://cdn.theeverygirl.com/wp-content/uploads/2015/11/Adele.jpg);
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.adele {
+    width: 100rem;
+    height: 50rem;
+    margin: auto;
+    
+}
+
+img.album {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    display: block;
+}
+
+H1 {
+ 
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+    font-weight: bold;
+    column-rule: 5;
+    color: white;
+    text-align: center;
+   
+}
+H2 {
+    font-family: 'Playfair Display', serif;
+    font-size:50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+  
+}
+P  {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+   
+}
+
+p.chorus {
+    font-size: 30px;
+    font-style: italic;
+    
+}
