@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons </title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href ="styles/styles.css" rel="stylesheet" type= "text/css">
+	</head>
+
+	<style>
+		body {
+			color: #333;
+			font-family: 'Open Sans', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		#main_content {
+			margin: 40px;
+		}
+
+		h1 {
+		 	font-size: 30px;
+		 	margin-bottom: 40px;
+		}
+
+		.button_container {
+			/*background-color: gray;*/
+			border: 5px solid gray;
+			margin: 0 10px 10px 0;
+			padding: 20px;
+			width: 200px;
+			height: 200px;
+			float: left;
+			overflow: hidden;
+			box-sizing: border-box;
+			text-align: center;
+		}
+
+		a#btn_spotify {
+			display: inline-block;
+			height: 50px;
+			box-sizing: border-box;
+			border-radius: 25px;
+			margin: auto;
+			margin-top: 50px;
+			padding: 10px 40px 0 40px;
+			background-color: #2ebd59;
+			border: 2px solid #2ebd59;
+			color: #fff;
+			font-size: 20px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a#btn_spotify:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+
+		a#btn_twitter {
+			display: inline-block;
+			height: 40px;
+			box-sizing: border-box;
+			border-radius: 4px;
+			margin: auto;
+			margin-top: 50px;
+			padding: 10px 30px 0 30px;
+			background-color: black;
+			color: #fff;
+			font-size: 18px;
+			font-family: 'Arial', sans-serif;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a#btn_twitter:hover {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+			background: #2ebfec; /* Old browsers */
+			background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+		}
+
+
+		a#btn_amazon {
+			display: block;
+			width: 100px;
+			height: 100px;
+			box-sizing: border-box;
+			border-radius: 50px;
+			margin: auto;
+			margin-top: 20px;
+			padding-top: 8px;
+			background-color: #232f3e;
+			color: #C8F7B2;
+			text-align: center;
+			font-size: 60px;
+		}
+
+		a#btn_amazon:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+
+		a#btn_indiegogo {
+			display: inline-block;
+			margin:auto;
+			margin-top: 50px;
+			margin-left: -10px;
+			padding: 8px 16px;
+			background-color: #fff;
+			color: red;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 30px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-decoration: none;
+			letter-spacing: -2px;
+		}
+
+		a#btn_indiegogo:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a#btn_apple {
+		    display: block;
+		    margin: auto;
+		    margin-top: 30px;
+		    color: red;
+		}
+		a#btn_apple:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a#btn_ibm {
+			display: inline-block;
+			height: 50px;
+			box-sizing: border-box;
+			margin: auto;
+			margin-top: 10px;
+
+		}
+		a#btn_ibm:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a#btn_cola {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 10px;			
+			}
+
+		a#btn_cola:hover {
+				-webkit-filter: grayscale(100%);
+    			filter: grayscale(100%);
+			}
+
+		a#btn_mk {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 10px;
+		}
+
+		a#btn_mk:hover {
+				-webkit-filter: grayscale(100%);
+    			filter: grayscale(100%);
+		}
+
+		a#btn_ideo {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 40px;		
+		}
+
+		a#btn_ideo:hover {
+				-webkit-filter: grayscale(100%);
+    			filter: grayscale(100%);
+		}
+
+		a#btn_sardella {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 10px;		
+		}
+
+		a#btn_sardella:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a#btn_craigs {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin-top: 50px;	
+					
+		}
+
+		a#btn_craigs:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a#btn_samsung {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+		}
+		a#btn_samsung:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a:hover {
+			-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+
+		a{
+			display: inline-block;
+			height: 50px;
+			box-sizing: border-box;
+			margin: auto;
+		}
+
+		a#btn_oldnavy {
+				display: inline-block;
+				height: 50px;
+				margin-left: -40px;
+				box-sizing: border-box;		
+		}		
+	</style>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling - Grace Lancaster</h1>
+			
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.apple.com" target="_blank" id="btn_apple"><i class="fa fa-apple fa-5x" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.ibm.com" target="_blank" id="btn_ibm"><img src="http://www.cbronline.com/wp-content/uploads/2016/07/ibm.png" width="150px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.coca-cola.com" target="_blank" id="btn_cola"><img src="https://images-na.ssl-images-amazon.com/images/I/818i%2BQm07UL._SL1500_.jpg" width="150px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.michaelkors.com" target="_blank" id="btn_mk"><img src="https://dimg.dillards.com/is/image/DillardsZoom/zoom/michael-michael-kors-mercer-large-convertible-tote/04774782_zi_burnt_red.jpg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.ideo.org/" target="_blank" id="btn_ideo"><img src="http://jfconnex.com/wp-content/uploads/2010/04/IDEO_horiz_logo.jpg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://sardellastl.com/" target="_blank" id="btn_sardella"> <img src="http://vocidibrescia.corriere.it/files/2012/08/sardella.jpg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://stlouis.craigslist.org/" target="_blank" id="btn_craigs"><img src="http://lifeedited.com/wp-content/uploads/2013/06/Craigslist.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.samsung.com/us/" target="_blank" id="btn_samsung"> <img src="http://images.samsung.com/is/image/samsung/in-galaxy-on-nxt-g620f-sm-g610fzdgins-007-dynamic5-gold?$PD_GALLERY_JPG$" width="150px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn"><img src="http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i102/at_rso_icon_round_512x512.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.bissingers.com/" target="_blank" id="btn_biss"><img src="http://cdn.bissingers.com/images/CrestFooter.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.ofa.us/about-ofa/" target="_blank" id="btn_ofa"><img src="http://hartleymiller.com/images/ofa-logo5.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.nbc.com/the-tonight-show" target="_blank" id="btn_tonight"><img src="https://upload.wikimedia.org/wikipedia/en/2/28/TSSJF_Logo.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.nike.com/us/en_us/" target="_blank" id="btn_nike"><img src="http://cdn.shoepalace.com/widgets/brands/nike.svg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_botanical"><img src="https://pbs.twimg.com/profile_images/540639394357452800/mk7NECtE_400x400.jpeg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.tesla.com/" target="_blank" id="btn_tesla"><img src="http://www.car-brand-names.com/wp-content/uploads/2015/05/Tesla-Motors-symbol.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://thecolorrun.com/" target="_blank" id="btn_colorrun"><img src="http://www.itsworthitguilford.org/uploads/1/2/6/5/12651889/editor/color-run-image-1_1.jpg?1494422261" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.moo.com/us/" target="_blank" id="btn_moo"><img src="https://www.moo.com/.resources/front-end-resources/images/favicons/favicon-196.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.fitbit.com/home" target="_blank" id="btn_fitbit"><img src="https://www.fitbit.com/content/assets/common/logo/fitbit-logo-2016.svg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://explodingkittens.com/" target="_blank" id="btn_kitten"><img src="http://lh3.googleusercontent.com/-bK0pc0s16zavx-tyaENZMO8iE4xy0_beoZRjX9FtIJcQdFnJzLgXmDtfJeUeACjjQ=w300" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.mollyjogger.com/" target="_blank" id="btn_molljogg"><img src="https://cdn.shopify.com/s/files/1/0156/0327/products/koolkan.2015_large.png?v=1499268508" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.stjude.org/" target="_blank" id="btn_jude"><img src="http://media.graytvinc.com/images/st+jude11.jpg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.newyorker.com/" target="_blank" id="btn_ny"><img src="https://account.newyorker.com/assets/dist/img/eustace-transparent-600.png" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.foreflight.com/" target="_blank" id="btn_flight"><img src="http://www.airmart.com/sites/default/files/foreflight.jpg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.npr.org/" target="_blank" id="btn_npr"><img src="http://www.yeproc.com/wp-content/uploads/2013/03/NPR_Square-350x350.jpg" width="100px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://oldnavy.gap.com/?" target="_blank" id="btn_oldnavy"><img src="http://logoness.com/wp-content/uploads/2012/05/old-navy-logo.jpg" width="230px"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_insta"><img src="http://pngimg.com/uploads/instagram/instagram_PNG10.png" width="100px"></a>
+			</div>
+		</div>
+		</div>	
+
+	</body>
+</html>
