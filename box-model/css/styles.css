@@ -1,0 +1,177 @@
+
+
+.sectiontop {
+    text-align: center;
+    display: block;
+    background-image: url("https://www.healthline.com/hlcmsresource/images/AN_images/AN22-Avocado-Toast-1296x728-header.jpg");
+    height: 480px; 
+}
+
+.section2 {
+    
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    margin-left: 20px;
+    padding-top: 40px;
+    height: 600px;
+}
+
+.p1 {
+    font-size: 16px;
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    line-height: 21px;
+}
+
+.picture1 {
+    width: 400px;
+    height: 300px;
+    display: block;
+    float: right;
+    background-image: url(https://www.twopeasandtheirpod.com/wp-content/uploads/2017/06/Everything-Bagel-Avocado-Toast-2-650x975.jpg);
+}
+
+.inside2{
+	width: 960px;
+    padding-top: 30px;
+}
+
+.inside3 {
+    height: 500px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.photo1 {
+    width: 100%;
+    height: 150px;
+    display: block;
+    float: left;
+    margin-bottom: 24px;
+    color: white;
+}
+ 
+ .image {
+    display: block;
+    float: left;
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    margin-right: 12px;
+}
+.phototext{
+    margin: 0;
+    padding: 7px 0px 43px 0px;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+.right {
+    display: block;
+    margin-left: 482px;
+    text-align: left;
+    width: 450px;
+}
+
+.left {
+	display: block;
+    text-align: left;
+    float: left;
+    width: 450px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-size: 60pt;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+      text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 42px;
+    color: white;
+}
+
+h3 {
+    width: 100%;
+    padding-top: 41px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h4{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: white;
+
+}
+.section4 {
+    box-sizing: border-box;
+    text-align: center;
+    height: 411px;
+    width: 100%;
+    background-color: rgb(36, 19, 2);
+    color: white;
+}
+
+.section4 p {
+    font-size: 28px;
+    text-align: center;
+    width: 723px;
+    height: 150px;
+    margin: auto;
+    
+}
+div {
+    display: block;
+}
+body {
+	background-color: rgba(164, 172, 121  ,1);
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+
+	}
+
+img {
+	width: 300px;
+	float: left;
+	margin:20px;
+
+	}
+
+.footer {
+    height: 98px;
+    background-color: rgb(56, 66, 0 );
+   }
+
+.footer p {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 600;
+    letter-spacing: -0.72px;
+    display: block;
+    float: left;
+}
+
+.socialmedia {
+   
+    display: block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
