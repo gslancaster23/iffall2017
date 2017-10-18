@@ -36,13 +36,11 @@ h3 {
     font-size:350px;
     font-weight: 400; 
     font-size: 100px;
+    color:black;
+    text-shadow: 5px 5px rgb(242, 225, 228);
     
 }
-#back {
-    position:absolute;
-    top:330px; left:0;
-    color: black; 
-}
+
 
 p  {
     font-size: 14px;
@@ -57,8 +55,13 @@ p.chorus {
 }
 section.footer {
   text-align: right;
-  margin-right: 30px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 
+}
+
+#btn_fb {
+  margin-bottom: 50px;
 }
 
 a{
@@ -66,5 +69,5 @@ a{
     }
 
 a:hover {
-  color: rgb(80, 80, 80);
+  color: rgb(255, 240, 242);
 }
