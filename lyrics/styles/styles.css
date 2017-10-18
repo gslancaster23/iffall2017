@@ -29,15 +29,16 @@ h1 {
 
 h2 {
     font-size:50px;
-    font-weight: 100; 
+    font-weight: 300; 
     font-size: 100px;
+    text-shadow: 5px 5px black;
 }
 h3 {
     font-size:350px;
     font-weight: 400; 
     font-size: 100px;
-    color:black;
-    text-shadow: 5px 5px rgb(242, 225, 228);
+    color:rgb(242, 225, 228);
+    text-shadow: 11px 5px black;
     
 }
 
@@ -60,8 +61,8 @@ section.footer {
 
 }
 
-#btn_fb {
-  margin-bottom: 50px;
+.socialmedia {
+  margin-bottom: 150px;
 }
 
 a{
@@ -70,4 +71,24 @@ a{
 
 a:hover {
   color: rgb(255, 240, 242);
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(255, 240, 242); 
+    color: black; 
+    cursor: pointer; 
+    padding: 30px; 
+    /*border-radius: 10px; */
+}
+
+#myBtn:hover {
+    background-color: black;
+       color: white; 
 }
