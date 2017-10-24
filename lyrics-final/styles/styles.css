@@ -1,0 +1,120 @@
+body {
+  background-size: cover;
+  background-image: url(../images/adele.jpg);
+  background-repeat: no-repeat; 
+  background-position: center;
+  margin-left:100px;
+  font-family: "Raleway",sans-serif; 
+  font-style: normal;
+  color: white;
+  text-align: left; 
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+    font-size:100px;
+    font-weight: 600;  
+    text-shadow: 10px 5px black; 
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-weight: 300; 
+    font-size: 100px;
+    text-shadow: 10px 5px black;
+    margin: 0px;
+}
+
+h3 {
+    font-size:350px;
+    font-weight: 400; 
+    font-size: 150px;
+    text-shadow: 11px 5px black;
+    margin: 0px;   
+}
+p  {
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    line-height: 1.5;  
+}
+
+#lyric-container {
+    background-color: rgba(254, 248, 249,.5);
+    width: 350px;
+    padding: 20px;
+    padding-top: 90px;
+    padding-left: 60px;  
+}
+
+#lyric-container:hover {
+  background-color: rgba(254, 248, 249,0);
+}
+
+#headings {
+  height: 400px;
+  width:400px;
+  position: absolute; top: 140px; left: 490px;
+}
+
+#by {
+  font-size:50px;
+  font-weight: 100; 
+}
+
+p.chorus {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.socialmedia {
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background: black;
+}
+
+a{
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 240, 242);
+}
+
+h1:hover {
+  color: rgb(255, 234, 237);
+  font-weight: 900;
+}
+
+h2:hover {
+	color: rgb(255, 234, 237);
+  font-weight: 900;
+}
+
+h3:hover {
+  color: rgb(255, 234, 237);
+  font-weight: 900;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgba(255, 240, 242,.5); 
+    color: black; 
+    cursor: pointer; 
+    padding: 30px; 
+}
+
+#myBtn:hover {
+    background-color: black;
+       color: white; 
+}
