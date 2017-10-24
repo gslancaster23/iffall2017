@@ -14,8 +14,9 @@ body {
 
 h1 {
     font-size:100px;
+    color: rgba(254, 248, 249,1);
+    text-shadow: 10px 5px rgba(0,0,0,1); 
     font-weight: 600;  
-    text-shadow: 10px 5px black; 
     margin: 0px;
     padding: 0px;
 }
@@ -29,9 +30,10 @@ h2 {
 
 h3 {
     font-size:350px;
-    font-weight: 400; 
-    font-size: 150px;
-    text-shadow: 11px 5px black;
+    color: black;
+    font-weight: 600; 
+    font-size: 250px;
+    text-shadow: 10px 5px white;
     margin: 0px;   
 }
 p  {
@@ -42,7 +44,7 @@ p  {
 }
 
 #lyric-container {
-    background-color: rgba(254, 248, 249,.5);
+    background-color: rgba(254, 248, 249,.25);
     width: 350px;
     padding: 20px;
     padding-top: 90px;
@@ -88,6 +90,7 @@ a:hover {
 h1:hover {
   color: rgb(255, 234, 237);
   font-weight: 900;
+  text-shadow: 7px 2px rgba(0,0,0,.5); 
 }
 
 h2:hover {
@@ -98,6 +101,7 @@ h2:hover {
 h3:hover {
   color: rgb(255, 234, 237);
   font-weight: 900;
+  text-shadow: 10px 5px black;
 }
 
 #myBtn {
