@@ -1,0 +1,104 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat; 
+  font-style: normal;
+  color: white;
+  text-align: left; 
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-family: 'Lancelot', cursive;
+}
+
+h1 {
+  margin-left: 80px;
+  font-size:40pt;
+  font-weight: 400;
+  font-family: 'Cinzel', serif;
+}
+
+p {
+  margin-left: 80px;
+  width:200px;
+  font-family: 'Lancelot', cursive;
+  font-size:10pt;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 90px;
+    text-decoration: none;
+    background-color: rgba(5, 6, 5,.5);
+}
+
+li a:hover {
+    color: red;
+}
+
+.active {
+    background-color: rgba( 7, 48, 2,.5);
+}
+body.home {
+  background-image: url(../images/4.jpg);
+}
+body.origins {
+  background-image: url(../images/3.jpg);
+}
+body.popularity {
+  background-image: url(../images/9.jpg);
+}
+body.types {
+  background-image: url(../images/7.jpg);
+}
+.socialmedia {
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+a{
+  color: white;
+}
+
+a:hover {
+  color: rgb(197, 16, 16);
+}
+
+@media screen and (max-width: 580px) {
+  h1 {
+    font-size:15pt;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 580px) {
+   h1 {
+    font-size:20pt;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 750px) {
+  h1 {
+    font-size:30pt;
+  }
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size:40pt;
+  }
+
