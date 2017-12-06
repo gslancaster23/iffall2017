@@ -13,21 +13,19 @@ body {
 }
 
 h1 {
-  margin-left: 80px;
+  margin-left: 50px;
+  margin-top: 50px;
   font-size:40pt;
   font-weight: 400;
   font-family: 'Cinzel', serif;
 }
 
 p {
-  margin-left: 80px;
+  margin: 0px;
   width:200px;
   font-family: 'Lancelot', cursive;
   font-size:12pt;
-  padding: 0px;
-}
-p:hover {
-  background-color: rgba(22, 61, 0,.75);
+  padding-left: 50px;
 }
 
 .topnav {
@@ -89,7 +87,7 @@ h1.slide-right {
   }
 
   to {
-    margin-left:80px;
+    margin-left:50px;
     width: 100%;
   }
 }
